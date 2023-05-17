@@ -29,3 +29,8 @@ testing on README.md
 |   2| Double Linked List |
 
 </details>
+
+---
+> If we pull together and commit ourselves, then we can push through anything.
+
+— Mona the Octocat
