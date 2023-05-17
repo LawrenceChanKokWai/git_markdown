@@ -180,7 +180,7 @@ solid cube_corner
 endsolid
 ``` -->
 
-```
+```mermaid
 graph TD
     A[Friend's Birthday] -->|Get money| B(Go shopping)
     B --> C{Let me think}
