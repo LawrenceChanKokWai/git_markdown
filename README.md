@@ -146,7 +146,7 @@ graph TD;
     B-->D;
     C-->D;
 ```
-
+<!-- 
 ```stl
 solid cube_corner
   facet normal 0.0 -1.0 0.0
@@ -178,11 +178,13 @@ solid cube_corner
     endloop
   endfacet
 endsolid
-```
+``` -->
 
+```
 graph TD
     A[Friend's Birthday] -->|Get money| B(Go shopping)
     B --> C{Let me think}
     C -->|One| D["Cool <br> Laptop"]
     C -->|Two| E[iPhone]
     C -->|Three| F[fa:fa-car Car]
+```
