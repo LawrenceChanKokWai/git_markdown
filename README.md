@@ -22,8 +22,10 @@ testing on README.md
 
 <details>
 <summary>Data Structure</summary>
+
 | No | TITLE              |
 |---:|-------------------:|
 |   1| Linked List        |
 |   2| Double Linked List |
+
 </details>
