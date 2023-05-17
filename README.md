@@ -77,6 +77,9 @@ This site was built using [GitHub Pages](https://pages.github.com/).
    - First nested list item
      - Second nested list item
 
+1.   First list item
+     - First nested list item
+
 Here is a simple footnote[^1].
 
 A footnote can also have multiple lines[^2].
@@ -84,6 +87,62 @@ A footnote can also have multiple lines[^2].
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
   This is a second line.
+  
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
-1.   First list item
-     - First nested list item
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
